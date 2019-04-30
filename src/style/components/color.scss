@@ -1,0 +1,8 @@
+.c-colors {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 4 * $gutter;
+  margin-bottom: 2 * $gutter;
+  padding-bottom: 6 * $gutter;
+  border-bottom: 2px solid $color-x-light;
+}

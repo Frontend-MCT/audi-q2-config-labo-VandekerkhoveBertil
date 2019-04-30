@@ -1,0 +1,16 @@
+.c-categories {
+  display: flex;
+  margin-bottom: 4 * $gutter;
+}
+
+.c-category {
+  border-bottom: 3px solid $color-light;
+  padding: $gutter;
+  color: $color-light;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.c-category:active {
+  border-color: $color-orange;
+}

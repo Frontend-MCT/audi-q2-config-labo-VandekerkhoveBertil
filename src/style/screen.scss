@@ -1,0 +1,23 @@
+// Settings
+@import './settings/gutter.scss';
+@import './settings/colors.scss';
+@import './settings/typography.scss';
+
+// Elements
+@import './elements/page.scss';
+
+// Components
+@import './components/app.scss';
+@import './components/header.scss';
+@import './components/title.scss';
+@import './components/location.scss';
+@import './components/car.scss';
+@import './components/info.scss';
+@import './components/button.scss';
+@import './components/category.scss';
+@import './components/color.scss';
+@import './components/footer.scss';
+
+//Utilities
+@import './utilities/svg.scss';
+@import './utilities/button-width.scss';

@@ -1,0 +1,6 @@
+html,
+body {
+  font: #{$font-size}/#{$line-height} $font-stack;
+  background: $bg-color;
+  -webkit-font-smoothing: antialiased;
+}

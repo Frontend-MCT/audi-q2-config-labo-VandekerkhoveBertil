@@ -1,0 +1,16 @@
+.c-info {
+  margin-top: 2 * $gutter;
+  display: flex;
+  justify-content: space-between;
+}
+
+.c-info-item-text {
+  margin: 0;
+  font-size: 0.7rem;
+  color: $color-light;
+}
+.c-info-item-value {
+  margin: 0;
+  font-weight: 600;
+  font-size: 1.2rem;
+}

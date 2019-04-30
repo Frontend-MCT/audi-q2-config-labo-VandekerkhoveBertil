@@ -1,0 +1,41 @@
+.c-location {
+  margin: 6 * $gutter 0 2 * $gutter 0;
+  padding: 2 * $gutter;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.c-location:before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 75%;
+  height: 25px;
+  border-radius: 10px;
+  background: white;
+  opacity: 0.5;
+  top: 190px;
+}
+
+.c-location-text {
+  text-align: left;
+  width: 50%;
+}
+.c-location-deal {
+  margin: 0;
+  font-size: 0.7rem;
+  color: $color-green;
+}
+
+.c-location-name {
+  margin: 0;
+  margin-top: $gutter;
+  font-size: 1.2rem;
+}
+
+.c-location-map {
+  width: 88px;
+  height: 88px;
+}
